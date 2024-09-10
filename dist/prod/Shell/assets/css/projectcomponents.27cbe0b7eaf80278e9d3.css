@@ -1,0 +1,10 @@
+#audio-page #Mute .ch5-button--default .ch5-button--icon{font-size:40px}
+#home-page #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
+#kamera-page .Element{display:flex;margin:10px}#kamera-page #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
+.cameracontrol-widget #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
+
+.powerdowndisplay-widget #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
+.powerdownquery-widget #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
+.powerdownsecurityquery-widget #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
+.powerupdisplay-widget #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
+.powerupquery-widget #Label_Groß .ch5-button--default .ch5-button--label{font-size:25px}
