@@ -1,0 +1,66 @@
+/*!****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/audio/audio.scss ***!
+  \****************************************************************************************************************************************/
+#audio-page #Mute .ch5-button--default .ch5-button--icon {
+  font-size: 40px;
+}
+/*!**************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/home/home.scss ***!
+  \**************************************************************************************************************************************/
+@charset "UTF-8";
+#home-page #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 30px;
+}
+/*!******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/kamera/kamera.scss ***!
+  \******************************************************************************************************************************************/
+@charset "UTF-8";
+#kamera-page .Element {
+  display: flex;
+  margin: 10px;
+}
+#kamera-page #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 25px;
+}
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/cameracontrol/cameracontrol.scss ***!
+  \**********************************************************************************************************************************************************/
+@charset "UTF-8";
+.cameracontrol-widget #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 25px;
+}
+/*!****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/powerdowndisplay/powerdowndisplay.scss ***!
+  \****************************************************************************************************************************************************************/
+@charset "UTF-8";
+.powerdowndisplay-widget #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 25px;
+}
+/*!************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/powerdownquery/powerdownquery.scss ***!
+  \************************************************************************************************************************************************************/
+@charset "UTF-8";
+.powerdownquery-widget #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 40px;
+}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/powerdownsecurityquery/powerdownsecurityquery.scss ***!
+  \****************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.powerdownsecurityquery-widget #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 40px;
+}
+/*!************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/powerupdisplay/powerupdisplay.scss ***!
+  \************************************************************************************************************************************************************/
+@charset "UTF-8";
+.powerupdisplay-widget #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 40px;
+}
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/powerupquery/powerupquery.scss ***!
+  \********************************************************************************************************************************************************/
+@charset "UTF-8";
+.powerupquery-widget #Label_Groß .ch5-button--default .ch5-button--label {
+  font-size: 40px;
+}

@@ -1,0 +1,52 @@
+
+.ElementGroup{
+    display: flex; 
+    flex-direction: column;        
+    background-color: #5b606450;
+     
+    width:250px;
+    height: 545px;
+    border:0px #afafaf;        
+
+    margin-top: 10px;
+    margin-left: 10px;        
+}
+
+.Elementclassification{
+    display: flex ;
+    background-color: #cacaca;
+    border:0px #afafaf;
+                
+    justify-content: center;
+    margin: 5px;
+    height: 100%;                  
+}
+
+.Element{
+    display: flex;       
+    margin: 5px;
+    justify-content: center;                               
+}   
+
+.Titel{
+    
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    color: antiquewhite; 
+    background-color: #95959500;      
+}
+.ButtonContainer{        
+    width: 180px;
+    height: 100px;
+    font-size:25px;
+                 
+    }
+
+table, th, td {            
+    border-spacing: 10px;
+    border-collapse: separate;
+   }
+          
+   
+   

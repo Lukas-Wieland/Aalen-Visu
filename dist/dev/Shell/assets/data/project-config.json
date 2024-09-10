@@ -1,0 +1,197 @@
+{
+  "projectName": "aalen-win-ch5",
+  "projectType": "shell-template",
+  "version": "0.0.1",
+  "faviconPath": "favicon.ico",
+  "menuOrientation": "horizontal",
+  "selectedTheme": "project-dark-theme",
+  "useWebXPanel": true,
+  "forceDeviceXPanel": false,
+  "themes": [
+    {
+      "name": "light-theme",
+      "extends": "light-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/150202_Hochschule_AA_blau_rgb.png",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#f8f8f8"
+        ]
+      }
+    },
+    {
+      "name": "dark-theme",
+      "extends": "dark-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/150202_Hochschule_AA_blau_rgb.png",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#1a1a1a"
+        ]
+      }
+    },
+    {
+      "name": "project-light-theme",
+      "extends": "light-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/150202_Hochschule_AA_blau_rgb.png",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#f8f8f8"
+        ]
+      }
+    },
+    {
+      "name": "project-dark-theme",
+      "extends": "dark-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/150202_Hochschule_AA_blau_rgb.png",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#1a1a1a"
+        ]
+      }
+    },
+    {
+      "name": "project-custom-theme",
+      "extends": "light-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#f8f8f8"
+        ]
+      }
+    }
+  ],
+  "config": {
+    "controlSystem": {
+      "ipId": "0x1E"
+    }
+  },
+  "customSignals": {
+    "receiveStateTheme": "templateTheme",
+    "sendEventTheme": "templateTheme"
+  },
+  "header": {
+    "display": true,
+    "displayInfo": true,
+    "displayTheme": true,
+    "diagnostics": {
+      "logs": {
+        "logAfterProjectLoad": true,
+        "receiveStateLogDiagnostics": "",
+        "logDiagnostics": "none"
+      }
+    },
+    "$component": ""
+  },
+  "footer": {
+    "display": false,
+    "$component": ""
+  },
+  "content": {
+    "$defaultView": "home",
+    "triggerViewProperties": {
+      "gestureable": false,
+      "disableAnimation": true
+    },
+    "pages": [
+      {
+        "pageName": "kamera",
+        "fullPath": "./app/project/components/pages/kamera/",
+        "fileName": "kamera.html",
+        "preloadPage": true,
+        "cachePage": false,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 4,
+          "label": "kamera",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-camera",
+          "iconUrl": "",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "audio",
+        "fullPath": "./app/project/components/pages/audio/",
+        "fileName": "audio.html",
+        "preloadPage": true,
+        "cachePage": false,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 3,
+          "label": "audio",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-volume-up",
+          "iconUrl": "",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "home",
+        "fullPath": "./app/project/components/pages/home/",
+        "fileName": "home.html",
+        "preloadPage": true,
+        "cachePage": false,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 1,
+          "label": "home",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-house",
+          "iconUrl": "",
+          "iconPosition": "bottom"
+        }
+      }
+    ],
+    "widgets": [
+      {
+        "widgetName": "powerupquery",
+        "fullPath": "./app/project/components/widgets/powerupquery/",
+        "fileName": "powerupquery.html"
+      },
+      {
+        "widgetName": "powerupdisplay",
+        "fullPath": "./app/project/components/widgets/powerupdisplay/",
+        "fileName": "powerupdisplay.html"
+      },
+      {
+        "widgetName": "powerdownquery",
+        "fullPath": "./app/project/components/widgets/powerdownquery/",
+        "fileName": "powerdownquery.html"
+      },
+      {
+        "widgetName": "powerdowndisplay",
+        "fullPath": "./app/project/components/widgets/powerdowndisplay/",
+        "fileName": "powerdowndisplay.html"
+      },
+      {
+        "widgetName": "powerdownsecurityquery",
+        "fullPath": "./app/project/components/widgets/powerdownsecurityquery/",
+        "fileName": "powerdownsecurityquery.html"
+      },
+      {
+        "widgetName": "cameracontrol",
+        "fullPath": "./app/project/components/widgets/cameracontrol/",
+        "fileName": "cameracontrol.html"
+      }
+    ]
+  }
+}
